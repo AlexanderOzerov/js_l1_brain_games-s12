@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 // @flow
 
-import readlineSync from 'readline-sync';
+import playGame from '../src/game-even';
 
-console.log('Welcome to the Brain Games!');
-const name = readlineSync.question('May I have your name? ');
-console.log(`Hello, ${name}!`);
+playGame();
