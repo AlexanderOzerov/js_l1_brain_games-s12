@@ -1,1 +1,2 @@
 # js_l1_brain_games_s12
+[![Code Climate](https://codeclimate.com/github/alexanderozerov/test/badges/gpa.svg)](https://codeclimate.com/github/alexanderozerov/test) [![Test Coverage](https://codeclimate.com/github/alexanderozerov/test/badges/coverage.svg)](https://codeclimate.com/github/alexanderozerov/test/coverage) [![Issue Count](https://codeclimate.com/github/alexanderozerov/test/badges/issue_count.svg)](https://codeclimate.com/github/alexanderozerov/test)
