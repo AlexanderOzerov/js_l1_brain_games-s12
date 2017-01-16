@@ -1,0 +1,22 @@
+{
+  "name": "alex_hexlet_brain_game",
+  "version": "0.1.0",
+  "description": "Hexlet project",
+  "main": "brain-even.js",
+  "bin": {
+    "brain-even": "./bin/brain-even.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderOzerov/js_l1_brain_games-s12.git"
+  },
+  "author": "Alexander Ozerov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderOzerov/js_l1_brain_games-s12/issues"
+  },
+  "homepage": "https://github.com/AlexanderOzerov/js_l1_brain_games-s12#readme"
+}
