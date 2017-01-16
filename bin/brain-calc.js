@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // @flow
 
-import playGame from '../src/game-calc';
+import playCalc from '../src/game-calc';
 
-playGame();
+playCalc();
