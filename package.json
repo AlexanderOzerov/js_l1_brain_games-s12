@@ -1,13 +1,14 @@
 {
   "name": "alex_hexlet_brain_game",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hexlet project",
   "main": "brain-even.js",
   "bin": {
     "brain-even": "./bin/brain-even.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-node": "babel-node"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/AlexanderOzerov/js_l1_brain_games-s12/issues"
   },
-  "homepage": "https://github.com/AlexanderOzerov/js_l1_brain_games-s12#readme"
+  "homepage": "https://github.com/AlexanderOzerov/js_l1_brain_games-s12#readme",
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-preset-env": "*",
+    "babel-preset-stage-0": "*"
+  }
 }
