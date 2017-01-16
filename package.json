@@ -1,6 +1,6 @@
 {
   "name": "alex_hexlet_brain_game",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Hexlet project",
   "bin": {
     "brain-even": "./bin/brain-even.js"
@@ -22,6 +22,9 @@
     "url": "https://github.com/AlexanderOzerov/js_l1_brain_games-s12/issues"
   },
   "homepage": "https://github.com/AlexanderOzerov/js_l1_brain_games-s12#readme",
+  "dependencies": {
+    "readline-sync": "*"
+  },
   "devDependencies": {
     "babel-cli": "*",
     "babel-core": "*",
