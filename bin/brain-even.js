@@ -1,3 +1,5 @@
 #!/usr/bin/env node
+// @flow
 
-console.log('Welcome to the Brain Games!');
+const message: string = 'Welcome to the Brain Games!';
+console.log(message);
