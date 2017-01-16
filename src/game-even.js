@@ -1,20 +1,17 @@
 // @flow
 
-import play from './index';
+import startGame from './index';
 import { getRandomInt } from './tools';
 
 
-const startMessage = 'Answer "yes" if number odd otherwise answer "no".';
+const startMessage = 'Answer "yes" if number odd otherwise answer "no".\n';
 
-const makeQuestion = () => getRandomInt(0, 100);
-
-const checkAnswer = (word): boolean => word.toLowerCase() === 'yes' || word.toLowerCase() === 'no';
-
-const getCorrectAnswer = (question) => {
-  const answer = (question % 2 === 0) ? 'yes' : 'no';
-  return answer;
+const getQuestion = () => {
+  const question = getRandomInt(0, 100);
+  const correctAnswer = (question % 2 === 0) ? 'yes' : 'no';
+  return { question, correctAnswer };
 };
 
 export default () => {
-  play(startMessage, makeQuestion, checkAnswer, getCorrectAnswer);
+  startGame(startMessage, getQuestion);
 };
